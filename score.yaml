@@ -12,3 +12,8 @@ service:
 resources:
   dns: # We need a DNS record to point to the service 
     type: dns
+  images:
+    type: s3
+    properties:
+      bucket:
+      region:
