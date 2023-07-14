@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "zpartal-test-2000"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-14"
+    "humanitec.com/appId": "zpartal-test-2000"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
